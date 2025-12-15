@@ -201,7 +201,7 @@ static void displayList(Node head) {
 
 ### Why this works
 
-- `p` is like the “loop index” (similar to the pointer `p` in the C notes).
+- `p` is like the “loop index”.
 - condition `p != null` means “stop at the end”.
 
 ### Common bug: forgetting to advance
