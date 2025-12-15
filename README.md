@@ -29,8 +29,4 @@ Each file is written to:
 ## Notes About Java Built-in Collections
 
 Java already provides `java.util.LinkedList` (a doubly linked list implementation).  
-These notes intentionally focus on *implementing linked lists yourself* to match the educational goals of the original C materials.
-
----
-
-If you want, you can paste any specific instructor requirements (naming conventions, method signatures, whether generics are allowed, etc.) and I can adjust the Java versions accordingly.
+These notes intentionally focus on *implementing linked lists yourself* to match the educational goals.
