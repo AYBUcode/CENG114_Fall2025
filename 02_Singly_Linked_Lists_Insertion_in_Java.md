@@ -33,7 +33,7 @@ In Java:
 
 ## Core insertion idea: 4 steps
 
-The C lecture describes insertion as these steps:
+Insertion as these steps:
 
 1. Create a new node
 2. Assign data to the node
@@ -294,8 +294,6 @@ static Node readListUntilZero(Scanner sc) {
 ```
 
 ### Why we used `tail` in this input function
-
-The C lecture example inserts by `add_after(p, ...)` and moves `p = p->next`.
 
 That is effectively maintaining a “tail pointer” while reading input.  
 This makes each insertion at end O(1), so the whole input build is O(n).
