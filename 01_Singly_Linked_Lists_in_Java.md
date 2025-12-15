@@ -1,5 +1,4 @@
 # Singly (Forward) Linked Lists in Java  
-*A detailed Java version of the C-based forward linked list lecture notes.*
 
 ---
 
