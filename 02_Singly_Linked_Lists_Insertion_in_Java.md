@@ -1,5 +1,4 @@
 # Singly Linked Lists in Java — Insertion (Add) Operations  
-*A detailed Java translation of the C “add node” operations.*
 
 ---
 
