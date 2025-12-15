@@ -390,7 +390,7 @@ In educational code, we often assume `p` is valid; in real code you should encap
 
 ---
 
-## Complete reference implementation (educational)
+## Complete reference implementation
 
 Below is a compact but complete educational class (not production-ready, but great for learning).  
 It exposes `Node` so you can replicate the lecture’s “pointer p” exercises.
