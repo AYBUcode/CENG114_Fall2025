@@ -1,7 +1,3 @@
-# Linked Lists in Java (Converted from C Lecture Notes)
-
-This set of Markdown notes converts the **C-based linked list lecture material** you provided into an **equivalent Java version** suitable for a Java programming / data structures course.
-
 ## How to Use These Notes
 
 Recommended reading order:
