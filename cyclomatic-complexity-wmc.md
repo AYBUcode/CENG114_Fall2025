@@ -296,19 +296,19 @@ class OrderValidator_Good {
         ValidationResult result;
         
         result = validateCustomer(order.getCustomer());
-        if (!result.isValid()) return result;
+        if (!result.isValid()) return result;                                    // +1
         
         result = validateItems(order.getItems(), order.getCustomer());
-        if (!result.isValid()) return result;
+        if (!result.isValid()) return result;                                    // +1
         
         result = validateTotal(order.getTotal());
-        if (!result.isValid()) return result;
+        if (!result.isValid()) return result;                                    // +1
         
         result = validatePaymentMethod(order.getPaymentMethod());
-        if (!result.isValid()) return result;
+        if (!result.isValid()) return result;                                    // +1
         
         return ValidationResult.success();
-        // CC = 1 + 1 = 2 ✅
+        // CC = 1 + 5 = 6 ✅
     }
     
     // CC = 3 ✅
@@ -381,12 +381,12 @@ class OrderValidator_Good {
 **WMC for OrderValidator_Good:**
 
 ```
-WMC = 2 + 3 + 8 + 2 + 3 = 18
+WMC = 6 + 3 + 8 + 2 + 3 = 22
 ```
 
 **Comparison:**
 - `OrderValidator_Bad`: Single method with CC = 15, WMC = 15
-- `OrderValidator_Good`: Five methods, max CC = 8, WMC = 18
+- `OrderValidator_Good`: Five methods, max CC = 8, WMC = 22
 
 **Key insight:** While WMC is slightly higher, each method is simpler and can be tested independently!
 
